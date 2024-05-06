@@ -15,10 +15,12 @@
     "jsx": "react-jsx",
 
     /* Linting */
+    /*added "allowSyntheticDefaultImports": true, to see if error in main is averted*/
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
